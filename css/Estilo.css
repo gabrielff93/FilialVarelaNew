@@ -33,6 +33,14 @@ h1 {
 
 }
 
+.subtitulo__pages {
+    background: blue;
+    color: gold;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 /* #header__contenedor { */
  /*    background-color:rgb(30, 30, 194) ;
