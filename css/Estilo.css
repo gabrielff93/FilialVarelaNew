@@ -1,0 +1,339 @@
+* {  
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../img//fondo\ claro\ boca.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+   
+}
+
+
+/* 
+h1 {
+    margin-top: 20px;
+    background-color: blue;
+    color: gold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+} */
+
+.subtitulo {
+    background: blue;
+    color: gold;
+    font-size: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+/* #header__contenedor { */
+ /*    background-color:rgb(30, 30, 194) ;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ */
+ /* background: rgb(23,12,230);
+ background: linear-gradient(90deg, rgba(23,12,230,1) 0%, rgba(173,175,22,1) 50%, rgba(0,22,255,0.9192051820728291) 100%);
+} */
+
+
+
+
+
+
+/* #header__contenedor ul {
+    list-style: none;
+    display: flex; 
+}
+
+#header__contenedor ul li a {
+    color:white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+} */
+
+/* #header__contenedor ul li a:hover {
+background-color:darkblue;
+}
+ */
+
+
+#grid__contenedor {
+    display: grid;
+}
+
+aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+aside img {
+    margin: 20px;
+}
+
+.carousel-inner {
+    height: 80%;
+    width: 80%;
+   
+}
+
+
+
+main p {
+    background: rgb(23,12,230);
+background: linear-gradient(90deg, rgba(23,12,230,1) 0%, rgba(173,175,22,1) 50%, rgba(0,22,255,0.9192051820728291) 100%);
+    font-size: 26px;
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.galeria__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 30px;
+    overflow: hidden;
+
+}
+
+.galeria__grid img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    object-fit: cover;  
+}
+.galeria__grid img:hover {
+    transform: scale(1.2);
+}
+
+footer p {
+    font-size: 23px;
+    color: white;
+    display:flex ;
+    justify-content: flex-end
+}
+footer .logoinsta {
+    display: flex;
+    flex-direction: row-reverse;
+   
+}
+
+footer .Logoface img {
+     position: relative; 
+     bottom: 76px;
+ }
+    
+ 
+
+footer span {
+    font-size: 18px;
+    color: darkblue;
+    display: flex;
+
+}
+
+/* Seccion quienes somos */
+
+.texto p {
+margin: 30px;
+font-size: 23px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+
+  
+
+.bandera__filial {
+    height: 80%;
+    width: 80%;
+  
+}
+
+    
+    
+
+
+/* Secciom Afiliate */
+
+.afiliate__titulos h3 {
+    text-align: center;
+    color: aliceblue;
+}
+ .afiliate__form {
+     margin: 30px;
+     text-align: center;
+     color:yellow;
+ }
+
+/* seccion como llegar */
+
+.como__llegar p {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: gold;
+    font-size: 23px;
+}
+
+/* Seccion Contacto */
+
+.contacto__info {
+    margin: 30px;
+    text-align: center;
+    color: gold;
+    background-color: darkblue;
+}
+
+.contacto__form {
+    margin: 30px;
+    text-align: center;
+    color: yellow;
+    font-size: 20px;   
+}
+.contacto__form p {
+    margin: 20px;
+    font-size: 20px;
+}
+
+input {
+width: 120px;
+height: 15px;
+transition: all 1s;
+}
+
+input:focus {
+    width: 200px;
+    height: 24px;
+    background-color: rgb(34, 107, 180);
+}
+
+/* media querys tablet */
+@media screen and (max-width: 992px){
+    
+ 
+
+
+
+
+
+@media screen and (min-width: 501px) {
+
+ 
+
+
+
+}
+
+
+/* media querys mobile */
+@media screen and (max-width: 500px) {
+
+  /*   h1 {
+        font-size: 10px;
+        color: gold;
+        background-color: darkblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: center; */
+}
+
+
+
+.banner {
+height: 90%;
+width: 90%;
+margin: 10px;
+
+}
+main p {
+    font-size: 15px;
+}
+
+footer p {
+    font-size: 6px;
+    color: white;
+    display:flex ;
+    justify-content: flex-end
+}
+
+footer .logoinsta {
+    display: flex;
+   flex-direction: row-reverse;
+   width: 3px;
+   height: 3px;    
+  
+}
+
+footer .Logoface {
+  position: relative; 
+   left: 250px;
+   bottom: 60px;
+   width: 3px;
+   height: 3px;
+
+}
+input {
+    width: 120px;
+    height: 15px;
+    transition: all 1s;
+    }
+    
+    input:focus {
+        width: 200px;
+        height: 24px;
+        background-color: rgb(34, 107, 180);
+    }
+
+    
+footer span {
+    font-size: 10px;
+    color: darkblue;
+    display: flex;
+
+}
+
+    /* quienes somos Mobile */
+    
+.texto p {
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    }
+
+}
+
+/* media querys desktop */
+@media screen and (min-width: 992px) {
+    
+
+
+
+/* #header__contenedor ul li a:hover {
+background-color:darkblue;
+}
+
+ */
+}
