@@ -11,17 +11,13 @@ body {
    
 }
 
-/* 
-h1 {
-    margin-top: 20px;
+.navbar {
     background-color: blue;
-    color: gold;
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+}
 
-} */
+#conteiner__nav {
+    
+}
 
 .subtitulo {
     background: blue;
@@ -31,6 +27,9 @@ h1 {
     flex-direction: row;
     justify-content: center;
 
+}
+.navbar-nav {
+    display: flex;
 }
 
 .subtitulo__pages {
@@ -42,19 +41,24 @@ h1 {
     justify-content: center;
 }
 
-/* #header__contenedor { */
- /*    background-color:rgb(30, 30, 194) ;
-    height: 100px;
+footer p {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
- */
- /* background: rgb(23,12,230);
- background: linear-gradient(90deg, rgba(23,12,230,1) 0%, rgba(173,175,22,1) 50%, rgba(0,22,255,0.9192051820728291) 100%);
-} */
+    justify-content: end;
+    font-size: 20px;
+    color: azure;
+}
 
+footer a {
+    display: flex;
+    flex-direction:row-reverse;
+    text-align: right;
+}
 
+footer span {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+}
 
 
 
@@ -90,7 +94,7 @@ aside {
     
 }
 aside img {
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 .carousel-inner {
@@ -132,31 +136,7 @@ background: linear-gradient(90deg, rgba(23,12,230,1) 0%, rgba(173,175,22,1) 50%,
     transform: scale(1.2);
 }
 
-footer p {
-    font-size: 23px;
-    color: white;
-    display:flex ;
-    justify-content: flex-end
-}
-footer .logoinsta {
-    display: flex;
-    flex-direction: row-reverse;
-   
-}
 
-footer .Logoface img {
-     position: relative; 
-     bottom: 76px;
- }
-    
- 
-
-footer span {
-    font-size: 18px;
-    color: darkblue;
-    display: flex;
-
-}
 
 /* Seccion quienes somos */
 
@@ -168,17 +148,7 @@ font-family: Arial, Helvetica, sans-serif;
 text-align: center;
 }
 
-  
-
-.bandera__filial {
-    height: 80%;
-    width: 80%;
-  
-}
-
-    
-    
-
+   
 
 /* Secciom Afiliate */
 
@@ -246,7 +216,24 @@ input:focus {
 
 @media screen and (min-width: 501px) {
 
- 
+    footer p {
+        display: flex;
+        justify-content: end;
+        font-size: 12px;
+        color: azure;
+    }
+    
+    footer a {
+        display: flex;
+        flex-direction:row-reverse;
+        text-align: right;
+    }
+    
+    footer span {
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: azure;
+    }
 
 
 
@@ -277,29 +264,8 @@ main p {
     font-size: 15px;
 }
 
-footer p {
-    font-size: 6px;
-    color: white;
-    display:flex ;
-    justify-content: flex-end
-}
 
-footer .logoinsta {
-    display: flex;
-   flex-direction: row-reverse;
-   width: 3px;
-   height: 3px;    
-  
-}
 
-footer .Logoface {
-  position: relative; 
-   left: 250px;
-   bottom: 60px;
-   width: 3px;
-   height: 3px;
-
-}
 input {
     width: 120px;
     height: 15px;
