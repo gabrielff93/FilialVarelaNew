@@ -39,6 +39,7 @@ background: linear-gradient(90deg, rgba(12,20,230,1) 22%, rgba(218,227,8,1) 55%,
     justify-content: center;
 }
 
+
 footer p {
     display: flex;
     justify-content: end;
@@ -112,7 +113,6 @@ background: linear-gradient(90deg, rgba(23,12,230,1) 0%, rgba(173,175,22,1) 50%,
     justify-content: center;
     padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .galeria__grid {
@@ -266,7 +266,7 @@ main p {
 
 input {
     width: 120px;
-    height: 15px;
+    height: 20px;
     transition: all 1s;
     }
     
