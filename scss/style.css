@@ -76,7 +76,7 @@
   .section__grid .section__item:nth-child(1) {
     display: -ms-grid;
     display: grid;
-    grid-column-gap: 200px;
+    grid-column-gap: 170px;
     background: aliceblue;
     width: 130px;
     height: 370px;
@@ -93,7 +93,7 @@
   .section__grid .section__item:nth-child(2) {
     display: -ms-grid;
     display: grid;
-    grid-column-gap: 175px;
+    grid-column-gap: 170px;
     background: aliceblue;
     width: 130px;
     height: 370px;
