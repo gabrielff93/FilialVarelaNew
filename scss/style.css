@@ -64,7 +64,7 @@
     display: grid;
     -ms-grid-columns: 20px 20px;
         grid-template-columns: 20px 20px;
-    grid-column-gap: 320px;
+    grid-column-gap: 220px;
     padding: 10px;
   }
   .section__grid .subtitular {
@@ -74,7 +74,7 @@
   }
   .section__grid .section__item:nth-child(1) {
     background: aliceblue;
-    width: 180px;
+    width: 120px;
     height: 350px;
   }
   .section__grid .section__item:nth-child(1) ul {
@@ -88,7 +88,7 @@
   }
   .section__grid .section__item:nth-child(2) {
     background: aliceblue;
-    width: 180px;
+    width: 120px;
     height: 350px;
   }
   .section__grid .section__item:nth-child(2) ul {
