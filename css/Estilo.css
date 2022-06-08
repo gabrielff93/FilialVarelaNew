@@ -117,6 +117,7 @@ background: linear-gradient(90deg, rgba(23,12,230,1) 0%, rgba(173,175,22,1) 50%,
     text-align: center;
     background: blue;
     color: gold;
+    
 }
 
 
@@ -235,6 +236,12 @@ input:focus {
         justify-content: center; */
 }
 
+.titular {
+    text-align: center;
+    background: blue;
+    color: gold;
+    
+}
 
 
 .banner {

@@ -48,15 +48,15 @@
 
 
 /* media querys mobile */
-@media screen and (max-width: 570px){
+@media screen and (max-width: 500px){
     .section__grid {
         background-image: url(../img/bombonera1.jpg);
         background-size: cover;
         background-repeat:no-repeat;
         background-position: center center;
         display: grid;
-        grid-template-columns: 20px 20px;
-        grid-column-gap: 20px;
+        grid-template-columns: 30px 30px;
+        grid-column-gap: 265px;
         padding: 10px;
     
         .subtitular {
@@ -67,8 +67,8 @@
     
         .section__item:nth-child(1) {
                         background: aliceblue;
-                        width: 200px;
-                        height: 300px;
+                        width: 180px;
+                        height: 350px;
                             ul {
                                 font-size: 11px;
                                 li {
@@ -81,8 +81,8 @@
             }
         .section__item:nth-child(2) {
                         background: aliceblue;
-                        width: 200px;
-                        height: 300px;
+                        width: 180px;
+                        height: 350px;
     
                             ul {
                                 font-size: 11px;
