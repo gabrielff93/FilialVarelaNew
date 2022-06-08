@@ -67,6 +67,9 @@
             }
     
         .section__item:nth-child(1) {
+            display: grid;
+            grid-column-gap: 200px;
+            
                         background: aliceblue;
                         width: 130px;
                         height: 370px;
@@ -81,6 +84,9 @@
                     }        
             }
         .section__item:nth-child(2) {
+            display: grid;
+            grid-column-gap: 200px;
+            
                         background: aliceblue;
                         width: 130px;
                         height: 370px;

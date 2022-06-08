@@ -74,6 +74,9 @@
     font-size: 12px;
   }
   .section__grid .section__item:nth-child(1) {
+    display: -ms-grid;
+    display: grid;
+    grid-column-gap: 200px;
     background: aliceblue;
     width: 130px;
     height: 370px;
@@ -88,6 +91,9 @@
     color: black;
   }
   .section__grid .section__item:nth-child(2) {
+    display: -ms-grid;
+    display: grid;
+    grid-column-gap: 200px;
     background: aliceblue;
     width: 130px;
     height: 370px;
