@@ -62,25 +62,6 @@ footer span {
 
 
 
-/* #header__contenedor ul {
-    list-style: none;
-    display: flex; 
-}
-
-#header__contenedor ul li a {
-    color:white;
-    text-decoration: none;
-    margin: 0 10px;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-} */
-
-/* #header__contenedor ul li a:hover {
-background-color:darkblue;
-}
- */
-
 
 #grid__contenedor {
     display: grid;
@@ -92,9 +73,7 @@ aside {
     justify-content: center;
     
 }
-aside img {
-    /* margin: 20px; */
-}
+
 
 .carousel-inner {
     height: 80%;
@@ -132,6 +111,12 @@ background: linear-gradient(90deg, rgba(23,12,230,1) 0%, rgba(173,175,22,1) 50%,
 }
 .galeria__grid img:hover {
     transform: scale(1.2);
+}
+
+.titular {
+    text-align: center;
+    background: blue;
+    color: gold;
 }
 
 
