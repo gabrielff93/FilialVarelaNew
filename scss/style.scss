@@ -48,16 +48,16 @@
 
 
 /* media querys mobile */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 570px){
     .section__grid {
         background-image: url(../img/bombonera1.jpg);
         background-size: cover;
         background-repeat:no-repeat;
         background-position: center center;
         display: grid;
-        grid-template-columns: 100px 100px;
-        grid-column-gap: 1200px;
-        padding: 50px;
+        grid-template-columns: 20px 20px;
+        grid-column-gap: 20px;
+        padding: 10px;
     
         .subtitular {
             text-align: center;
@@ -67,10 +67,10 @@
     
         .section__item:nth-child(1) {
                         background: aliceblue;
-                        width: 400px;
-                        height: 600px;
+                        width: 200px;
+                        height: 300px;
                             ul {
-                                font-size: 23px;
+                                font-size: 11px;
                                 li {
                                     color: blue;
                                     p {
@@ -81,11 +81,11 @@
             }
         .section__item:nth-child(2) {
                         background: aliceblue;
-                        width: 400px;
-                        height: 600px;
+                        width: 200px;
+                        height: 300px;
     
                             ul {
-                                font-size: 23px;
+                                font-size: 11px;
                                 li {
                                     color:blue;
                                     p {

@@ -224,7 +224,7 @@ input:focus {
 
 
 /* media querys mobile */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 570px) {
 
   /*   h1 {
         font-size: 10px;
