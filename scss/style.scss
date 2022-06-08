@@ -1,3 +1,7 @@
+
+@import 'comollegar' ;
+
+
 .section__grid {
     background-image: url(../img/bombonera1.jpg);
     background-size: cover;
@@ -105,4 +109,8 @@
 
 }
 
-@import 'comollegar' ;
+iframe {
+    width: 400px;
+    height: 250px;
+}
+
