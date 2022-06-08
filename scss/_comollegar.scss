@@ -1,0 +1,16 @@
+.comollegar_contenedor {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: normal;
+    margin: 20px;
+
+    h3 {
+        background-color: blue;
+        color: gold;
+        text-align: center;
+    }
+      
+}

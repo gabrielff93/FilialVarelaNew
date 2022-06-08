@@ -102,4 +102,31 @@
     color: black;
   }
 }
+
+.comollegar_contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: normal;
+      -ms-flex-align: normal;
+          align-items: normal;
+  margin: 20px;
+}
+
+.comollegar_contenedor h3 {
+  background-color: blue;
+  color: gold;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
