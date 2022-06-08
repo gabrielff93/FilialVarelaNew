@@ -54,7 +54,7 @@
 }
 
 /* media querys mobile */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .section__grid {
     background-image: url(../img/bombonera1.jpg);
     background-size: cover;
@@ -64,7 +64,7 @@
     display: grid;
     -ms-grid-columns: 30px 30px;
         grid-template-columns: 30px 30px;
-    grid-column-gap: 210px;
+    grid-column-gap: 220px;
     padding: 5px;
   }
   .section__grid .subtitular {
