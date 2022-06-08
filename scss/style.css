@@ -64,7 +64,7 @@
     display: grid;
     -ms-grid-columns: 30px 30px;
         grid-template-columns: 30px 30px;
-    grid-column-gap: 220px;
+    grid-column-gap: 210px;
     padding: 5px;
   }
   .section__grid .subtitular {
@@ -74,9 +74,6 @@
     font-size: 12px;
   }
   .section__grid .section__item:nth-child(1) {
-    display: -ms-grid;
-    display: grid;
-    grid-column-gap: 170px;
     background: aliceblue;
     width: 130px;
     height: 370px;
@@ -91,9 +88,6 @@
     color: black;
   }
   .section__grid .section__item:nth-child(2) {
-    display: -ms-grid;
-    display: grid;
-    grid-column-gap: 170px;
     background: aliceblue;
     width: 130px;
     height: 370px;
