@@ -54,7 +54,7 @@
 }
 
 /* media querys mobile */
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 500px) {
   .section__grid {
     background-image: url(../img/bombonera1.jpg);
     background-size: cover;
@@ -62,20 +62,21 @@
     background-position: center center;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 20px 20px;
-        grid-template-columns: 20px 20px;
+    -ms-grid-columns: 30px 30px;
+        grid-template-columns: 30px 30px;
     grid-column-gap: 220px;
-    padding: 10px;
+    padding: 5px;
   }
   .section__grid .subtitular {
     text-align: center;
     color: darkblue;
     background: gold;
+    font-size: 12px;
   }
   .section__grid .section__item:nth-child(1) {
     background: aliceblue;
-    width: 120px;
-    height: 350px;
+    width: 130px;
+    height: 370px;
   }
   .section__grid .section__item:nth-child(1) ul {
     font-size: 11px;
@@ -88,8 +89,8 @@
   }
   .section__grid .section__item:nth-child(2) {
     background: aliceblue;
-    width: 120px;
-    height: 350px;
+    width: 130px;
+    height: 370px;
   }
   .section__grid .section__item:nth-child(2) ul {
     font-size: 11px;
