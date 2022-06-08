@@ -52,4 +52,53 @@
 .section__grid .section__item:nth-child(2) ul li p {
   color: black;
 }
+
+/* media querys mobile */
+@media screen and (max-width: 500px) {
+  .section__grid {
+    background-image: url(../img/bombonera1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100px 100px;
+        grid-template-columns: 100px 100px;
+    grid-column-gap: 1200px;
+    padding: 50px;
+  }
+  .section__grid .subtitular {
+    text-align: center;
+    color: darkblue;
+    background: gold;
+  }
+  .section__grid .section__item:nth-child(1) {
+    background: aliceblue;
+    width: 400px;
+    height: 600px;
+  }
+  .section__grid .section__item:nth-child(1) ul {
+    font-size: 23px;
+  }
+  .section__grid .section__item:nth-child(1) ul li {
+    color: blue;
+  }
+  .section__grid .section__item:nth-child(1) ul li p {
+    color: black;
+  }
+  .section__grid .section__item:nth-child(2) {
+    background: aliceblue;
+    width: 400px;
+    height: 600px;
+  }
+  .section__grid .section__item:nth-child(2) ul {
+    font-size: 23px;
+  }
+  .section__grid .section__item:nth-child(2) ul li {
+    color: blue;
+  }
+  .section__grid .section__item:nth-child(2) ul li p {
+    color: black;
+  }
+}
 /*# sourceMappingURL=style.css.map */
