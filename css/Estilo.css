@@ -40,7 +40,7 @@ background: linear-gradient(90deg, rgba(12,20,230,1) 22%, rgba(218,227,8,1) 55%,
 }
 
 
-footer p {
+/* footer p {
     display: flex;
     justify-content: end;
     font-size: 20px;
@@ -58,7 +58,7 @@ footer span {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: azure;
 }
-
+ */
 
 
 
@@ -120,6 +120,30 @@ background: linear-gradient(90deg, rgba(23,12,230,1) 0%, rgba(173,175,22,1) 50%,
     
 }
 
+.footer__container {
+    background-color: darkkhaki;
+}
+
+footer p {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    color: azure;
+}
+
+footer a {
+    display: flex;
+    flex-direction:row-reverse;
+    text-align: center;
+}
+
+footer span {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: azure;
+}
+
+
 
 
 /* Seccion quienes somos */
@@ -148,14 +172,64 @@ text-align: center;
 
 /* seccion como llegar */
 
-.como__llegar p {
+.comollegar__container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: normal;
+    margin: 10px;
+}
+
+
+.comollegar__titulo {
+    text-align: center;
+    background: blue;
+    color: gold;
+    font-size: 23px;
+}
+
+.text__container {
+    background-color: cornflowerblue;
+}
+
+.comollegar__text {
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.comollegar__text1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkblue;
+}
+.comollegar__text2 {
+    display: grid;
+    justify-items: center;
+    font-size: 20px;
+    color: aliceblue;  
+}
+.comollegar__text3 {
+    text-align: center;
+    font-size: 23px;
+    color: gold;
+}
+
+
+iframe {
+    display
+}
+/* .como__llegar p {
     margin: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     color: gold;
     font-size: 23px;
-}
+} */
 
 /* Seccion Contacto */
 

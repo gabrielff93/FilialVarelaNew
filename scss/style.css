@@ -80,6 +80,7 @@
   color: black;
 }
 
+/* Seccion quienes somos */
 /* media querys mobile */
 @media screen and (max-width: 480px) {
   .section__grid {
