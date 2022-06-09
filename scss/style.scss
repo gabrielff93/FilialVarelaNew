@@ -1,4 +1,4 @@
-
+@import 'variables';
 @import 'comollegar' ;
 
 
@@ -15,7 +15,7 @@
     .subtitular {
         text-align: center;
         color: darkblue;
-        background: gold;
+        background: $colorsec;
         }
 
     .section__item:nth-child(1) {
@@ -25,7 +25,7 @@
                         ul {
                             font-size: 23px;
                             li {
-                                color: blue;
+                                color: $colorprinc;
                                 p {
                                     color:black;
                          }
@@ -40,7 +40,7 @@
                         ul {
                             font-size: 23px;
                             li {
-                                color:blue;
+                                color:$colorprinc;
                                 p {
                                     color: black;
                          }
@@ -66,7 +66,7 @@
         .subtitular {
             text-align: center;
             color: darkblue;
-            background: gold;
+            background: $colorsec;
             font-size: 12px;
             }
     
@@ -79,7 +79,7 @@
                             ul {
                                 font-size: 11px;
                                 li {
-                                    color: blue;
+                                    color: $colorprinc;
                                     p {
                                         color:black;
                              }
@@ -96,7 +96,7 @@
                             ul {
                                 font-size: 11px;
                                 li {
-                                    color:blue;
+                                    color:$colorprinc;
                                     p {
                                         color: black;
                              }
