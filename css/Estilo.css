@@ -365,7 +365,7 @@ input {
                 align-content: center;
                 justify-content: center;
                 align-items: normal;
-                margin: 10px;
+                margin: 5px;
             }
             
             
@@ -373,7 +373,7 @@ input {
                 text-align: center;
                 background: blue;
                 color: gold;
-                font-size: 12px;
+                font-size: 18px;
             }
             
             .text__container {
@@ -381,13 +381,13 @@ input {
             }
             
             .comollegar__text {
-                font-size: 10px;
+                font-size: 12px;
                 color: aliceblue;
                 text-align: center;
             }
             .maps__comollegar {
                 width: 300px;
-                height: 130px;
+                height: 150px;
             }
           
 
