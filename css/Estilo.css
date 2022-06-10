@@ -299,14 +299,8 @@ input:focus {
 /* media querys mobile */
 @media screen and (max-width: 570px) {
 
-  /*   h1 {
-        font-size: 10px;
-        color: gold;
-        background-color: darkblue;
-        display: flex;
-        flex-direction: row;
-        justify-content: center; */
-}
+ 
+/* } */
 
 .titular {
     text-align: center;
@@ -386,10 +380,10 @@ input {
                 text-align: center;
             }
             .maps__comollegar {
-                width: 300px;
-                height: 150px;
+                width: 350px;
+                height: 200px;
             }
-          
+        }       
 
 /* media querys desktop */
 @media screen and (min-width: 992px) {
