@@ -67,12 +67,12 @@ footer span {
     display: grid;
 }
 
-aside {
+/* aside {
     display: flex;
     flex-direction: row;
     justify-content: center;
     
-}
+} */
 
 
 .carousel-inner {
@@ -119,6 +119,8 @@ background: linear-gradient(90deg, rgba(23,12,230,1) 0%, rgba(173,175,22,1) 50%,
     color: gold;
     
 }
+
+
 
 .footer__container {
     background-color: darkkhaki;
@@ -172,7 +174,7 @@ text-align: center;
 
 /* seccion como llegar */
 
-.comollegar__container {
+/* .comollegar__container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -216,7 +218,7 @@ text-align: center;
     text-align: center;
     font-size: 23px;
     color: gold;
-}
+} */
 
 
 
