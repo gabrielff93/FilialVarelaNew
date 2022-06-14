@@ -171,19 +171,30 @@
 }
 
 /* Seccion Afiliate */
-.formul__contenedor {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: darkblue;
-  width: 1000px;
+.afiliate__form {
+  text-align: center;
+  background-image: url(../img/fondoform.jpg);
+  font-size: 20px;
+  color: gold;
+}
+
+.afi__input {
+  font-size: 13px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 120px;
+  height: 30px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.afi__label {
+  width: 100px;
+}
+
+input:focus {
+  width: 200px;
+  height: 25px;
+  background-color: #226bb4;
 }
 
 /* Seccion quienes somos */
@@ -240,10 +251,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-line-pack: center;
@@ -259,10 +270,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -306,10 +317,5 @@
     width: 350px;
     height: 150px;
   }
-  /*   iframe {
-                        width: 250px;
-                        height: 130px;
-                    }
- */
 }
 /*# sourceMappingURL=style.css.map */

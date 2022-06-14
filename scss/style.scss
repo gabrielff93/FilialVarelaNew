@@ -133,13 +133,39 @@
 
             /* Seccion Afiliate */
 
-   .formul__contenedor {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: darkblue;
-    width: 1000px;
-   }
+
+   .afiliate__form {
+    text-align: center;
+    background-image: url(../img/fondoform.jpg);
+    font-size: 20px;
+    color: $colorsec;
+    
+   
+    
+
+   
+    
+   } 
+   .afi__input {
+    font-size: 13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 120px;
+    height: 30px;
+    transition: all 1s;
+}
+
+                .afi__label {
+                    width: 100px;
+                }
+
+
+                input:focus {
+                    width: 200px;
+                    height: 25px;
+                    background-color: rgb(34, 107, 180);
+                }
+              
+   
 
                     /* Seccion quienes somos */
    
@@ -198,12 +224,14 @@
              
             }
 
+         
+            
 
                     /*seccion Como llegar Mobile */
 
                     .comollegar__container {
                         display: flex;
-                        flex-direction: row;
+                        flex-direction: column;
                         flex-wrap: wrap;
                         align-content: center;
                         justify-content: center;
@@ -211,7 +239,7 @@
                     
                         .maps__comollegar {
                             display: flex;
-                            flex-direction: row;
+                            flex-direction: column;
                             justify-content: center;
                         }
                     
@@ -259,11 +287,7 @@
                         }
                     }
 
-                  /*   iframe {
-                        width: 250px;
-                        height: 130px;
-                    }
- */
+  
                 
                 }
 
