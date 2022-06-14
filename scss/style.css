@@ -255,6 +255,18 @@
         -ms-flex-align: normal;
             align-items: normal;
   }
+  .comollegar__container .maps__comollegar, .boton__container .maps__comollegar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .comollegar__container h3, .boton__container h3 {
     text-align: center;
     background-color: blue;
@@ -263,6 +275,8 @@
   }
   .comollegar__container .text__container, .boton__container .text__container {
     background-color: cornflowerblue;
+    width: 200px;
+    height: 400px;
   }
   .comollegar__container .comollegar__text, .boton__container .comollegar__text, .boton__container .boton__text {
     font-size: 10px;
