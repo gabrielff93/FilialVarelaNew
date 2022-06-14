@@ -163,6 +163,29 @@
   border-radius: 70px;
 }
 
+.boton__titulo {
+  color: gold;
+  font-size: 26px;
+  text-align: center;
+  background: blue;
+}
+
+/* Seccion Afiliate */
+.formul__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: darkblue;
+  width: 1000px;
+}
+
 /* Seccion quienes somos */
 /* media querys mobile */
 @media screen and (max-width: 480px) {

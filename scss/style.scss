@@ -117,8 +117,29 @@
                             
                         }
                     }
-            }                
-                              
+            }        
+            
+            @mixin titulos {
+                color: $colorsec;
+                font-size: 26px;
+                text-align: center;  
+            }
+                
+            .boton__titulo {
+                @include titulos;
+                background: blue;
+            }
+
+
+            /* Seccion Afiliate */
+
+   .formul__contenedor {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: darkblue;
+    width: 1000px;
+   }
 
                     /* Seccion quienes somos */
    
