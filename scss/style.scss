@@ -203,7 +203,7 @@
 
                     .comollegar__container {
                         display: flex;
-                        flex-direction: column;
+                        flex-direction: row;
                         flex-wrap: wrap;
                         align-content: center;
                         justify-content: center;
@@ -223,8 +223,9 @@
                         }
                             .text__container {
                                 background-color: cornflowerblue;
-                                width: 200px;
-                                height: 400px;
+                                width: 350px;
+                                height: 150px;
+                                margin: 10px;
                         }
                             .comollegar__text {
                                 font-size: 10px;
@@ -249,12 +250,13 @@
                                 font-size: 15px;
                                 color: $colorsec;
                             
-                                    img {
-                                        width: 200px;
-                                        height: 130px;
-                                    }
+                                    
                             }
-                        
+                        img {
+                           
+                            width: 350px;
+                            height: 150px;
+                        }
                     }
 
                   /*   iframe {

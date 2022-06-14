@@ -240,10 +240,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-line-pack: center;
@@ -275,8 +275,9 @@
   }
   .comollegar__container .text__container, .boton__container .text__container {
     background-color: cornflowerblue;
-    width: 200px;
-    height: 400px;
+    width: 350px;
+    height: 150px;
+    margin: 10px;
   }
   .comollegar__container .comollegar__text, .boton__container .comollegar__text, .boton__container .boton__text {
     font-size: 10px;
@@ -301,9 +302,9 @@
     font-size: 15px;
     color: gold;
   }
-  .comollegar__container .comollegar__text3 img, .boton__container .comollegar__text3 img {
-    width: 200px;
-    height: 130px;
+  .comollegar__container img, .boton__container img {
+    width: 350px;
+    height: 150px;
   }
   /*   iframe {
                         width: 250px;
