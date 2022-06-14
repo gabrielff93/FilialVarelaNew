@@ -235,10 +235,10 @@
   .section__grid .section__item:nth-child(2) ul li p {
     color: black;
   }
-}
-
-/* iframe {
+  /*seccion Como llegar Mobile */
+  iframe {
     width: 300px;
     height: 130px;
-} */
+  }
+}
 /*# sourceMappingURL=style.css.map */
