@@ -236,9 +236,65 @@
     color: black;
   }
   /*seccion Como llegar Mobile */
-  iframe {
-    width: 300px;
+  .comollegar__container, .boton__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: normal;
+        -ms-flex-align: normal;
+            align-items: normal;
+  }
+  .comollegar__container h3, .boton__container h3 {
+    text-align: center;
+    background-color: blue;
+    color: gold;
+    font-size: 15px;
+  }
+  .comollegar__container .text__container, .boton__container .text__container {
+    background-color: cornflowerblue;
+  }
+  .comollegar__container .comollegar__text, .boton__container .comollegar__text, .boton__container .boton__text {
+    font-size: 10px;
+    color: aliceblue;
+    text-align: center;
+  }
+  .comollegar__container .comollegar__text1, .boton__container .comollegar__text1 {
+    text-align: center;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+  }
+  .comollegar__container .comollegar__text2, .boton__container .comollegar__text2 {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    font-size: 10px;
+    color: aliceblue;
+  }
+  .comollegar__container .comollegar__text3, .boton__container .comollegar__text3 {
+    text-align: center;
+    font-size: 15px;
+    color: gold;
+  }
+  .comollegar__container .comollegar__text3 img, .boton__container .comollegar__text3 img {
+    width: 200px;
     height: 130px;
   }
+  /*   iframe {
+                        width: 250px;
+                        height: 130px;
+                    }
+ */
 }
 /*# sourceMappingURL=style.css.map */

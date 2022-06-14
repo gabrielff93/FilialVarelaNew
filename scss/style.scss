@@ -200,11 +200,61 @@
 
 
                     /*seccion Como llegar Mobile */
-                    iframe {
-                        width: 300px;
-                        height: 130px;
+
+                    .comollegar__container {
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap;
+                        align-content: center;
+                        justify-content: center;
+                        align-items: normal;
+                    
+                    
+                        h3{
+                            text-align: center;
+                            background-color: $colorprinc;
+                            color:$colorsec;
+                            font-size: 15px;
+                        }
+                            .text__container {
+                                background-color: cornflowerblue;
+                        }
+                            .comollegar__text {
+                                font-size: 10px;
+                                color: aliceblue;
+                                text-align: center;
+                            }
+                        
+                            .comollegar__text1 {
+                                text-align: center;
+                                font-size: 10px;
+                                font-family: Arial, Helvetica, sans-serif;
+                                color:darkblue;
+                            }
+                            .comollegar__text2 {
+                                display: grid;
+                                justify-items: center;
+                                font-size: 10px;
+                                color: aliceblue;  
+                            }
+                            .comollegar__text3 {
+                                text-align: center;
+                                font-size: 15px;
+                                color: $colorsec;
+                            
+                                    img {
+                                        width: 200px;
+                                        height: 130px;
+                                    }
+                            }
+                        
                     }
 
+                  /*   iframe {
+                        width: 250px;
+                        height: 130px;
+                    }
+ */
                 
                 }
 
