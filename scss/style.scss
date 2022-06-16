@@ -96,7 +96,7 @@
 
 .boton__container {
     @extend .comollegar__container;
-    background: lightsteelblue;
+    /* background: lightsteelblue; */
     
     
                  .boton__text {
@@ -130,6 +130,37 @@
                 background: blue;
             }
 
+        .footer__contenedor {
+            display: grid;
+            margin-top: 20px;
+            
+            .mb-4 {
+                font-size: 20px;
+                color: aliceblue;
+                 
+                .buton__redes {
+                    margin: 50px;
+
+                        
+                }
+                       
+            }
+        }
+        .text__copyright {
+            height: 60px;
+            background-color: rgba(0, 0, 0, 0.2) ;
+                        p {
+                            font-size: 18px;
+                            color: aliceblue;
+                            a {                                                          
+                                font-size: 20px;
+                                color: gold;
+                                text-decoration: none;
+                                border-radius: 50px;
+                                background: darkblue;
+                            }
+                        }
+        }  
 
             /* Seccion Afiliate */
 
@@ -140,10 +171,6 @@
     font-size: 20px;
     color: $colorsec;
     
-   
-    
-
-   
     
    } 
    .afi__input {

@@ -139,7 +139,7 @@
 }
 
 .boton__container {
-  background: lightsteelblue;
+  /* background: lightsteelblue; */
 }
 
 .boton__container .form__boton {
@@ -168,6 +168,39 @@
   font-size: 26px;
   text-align: center;
   background: blue;
+}
+
+.footer__contenedor {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 20px;
+}
+
+.footer__contenedor .mb-4 {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.footer__contenedor .mb-4 .buton__redes {
+  margin: 50px;
+}
+
+.text__copyright {
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.text__copyright p {
+  font-size: 18px;
+  color: aliceblue;
+}
+
+.text__copyright p a {
+  font-size: 20px;
+  color: gold;
+  text-decoration: none;
+  border-radius: 50px;
+  background: darkblue;
 }
 
 /* Seccion Afiliate */
