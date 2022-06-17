@@ -2,6 +2,7 @@
 @import 'comollegar' ;
 
 
+
 .section__grid {
     background-image: url(../img/bombonera1.jpg);
     background-size: cover;
@@ -153,7 +154,7 @@
                             font-size: 18px;
                             color: aliceblue;
                             a {                                                          
-                                font-size: 20px;
+                                font-size: 15px;
                                 color: gold;
                                 text-decoration: none;
                                 border-radius: 50px;
@@ -195,6 +196,27 @@
    
 
                     /* Seccion quienes somos */
+     .card-group {
+        margin: 10px;
+        .card { 
+            margin: 10px;
+            .card-title {
+                text-align: center;
+                background-color: blue;
+                color: $colorsec;
+                            .card-text { 
+                                color: black;
+                            }
+             }
+        }
+      }
+      
+                   
+
+                    /*Seccion Contacto */
+     .contacto__form { 
+        background-image: url(../img/fondoform.jpg);
+     }               
    
 /* media querys mobile */
 @media screen and (max-width: 480px){

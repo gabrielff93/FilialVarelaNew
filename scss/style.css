@@ -196,7 +196,7 @@
 }
 
 .text__copyright p a {
-  font-size: 20px;
+  font-size: 15px;
   color: gold;
   text-decoration: none;
   border-radius: 50px;
@@ -231,6 +231,29 @@ input:focus {
 }
 
 /* Seccion quienes somos */
+.card-group {
+  margin: 10px;
+}
+
+.card-group .card {
+  margin: 10px;
+}
+
+.card-group .card .card-title {
+  text-align: center;
+  background-color: blue;
+  color: gold;
+}
+
+.card-group .card .card-title .card-text {
+  color: black;
+}
+
+/*Seccion Contacto */
+.contacto__form {
+  background-image: url(../img/fondoform.jpg);
+}
+
 /* media querys mobile */
 @media screen and (max-width: 480px) {
   .section__grid {

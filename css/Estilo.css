@@ -15,8 +15,14 @@ body {
     background: rgb(12,20,230);
 background: linear-gradient(90deg, rgba(12,20,230,1) 22%, rgba(218,227,8,1) 55%, rgba(0,31,255,0.9192051820728291) 84%);
     
-    
 }
+
+
+ 
+
+
+
+
 
 
 .subtitulo {
@@ -48,11 +54,11 @@ background: linear-gradient(90deg, rgba(12,20,230,1) 22%, rgba(218,227,8,1) 55%,
 
 
 
-.carousel-inner {
+/* .carousel-inner {
     height: 80%;
     width: 80%;
    
-}
+} */
 
 
 
@@ -95,32 +101,6 @@ background: linear-gradient(90deg, rgba(23,12,230,1) 0%, rgba(173,175,22,1) 50%,
 
 
 
-/* .footer__container {
-    background-color: darkkhaki;
-}
-
-footer p {
-    display: flex;
-    justify-content: end;
-    font-size: 20px;
-    color: azure;
-}
-
-footer a {
-    display: flex;
-    flex-direction:row-reverse;
-    text-align: center;
-}
-
-footer span {
-    font-size: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: azure;
-} */
-
-
-
-
 /* Seccion quienes somos */
 
 .texto p {
@@ -141,11 +121,11 @@ text-align: center;
 }
 /*  .afiliate__form {
      margin: 30px;
-     /* text-align: center; */
+     text-align: center;
      color:yellow;
      font-size: 20px;
- }
- */
+ } */
+
 /* seccion como llegar */
 
 
