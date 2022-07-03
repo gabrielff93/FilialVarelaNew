@@ -227,6 +227,7 @@
   height: 30px;
   -webkit-transition: all 1s;
   transition: all 1s;
+  margin-bottom: 10px;
 }
 
 .afi__label {
@@ -381,6 +382,10 @@ input:focus {
   .comollegar__container img, .boton__container img {
     width: 350px;
     height: 150px;
+  }
+  /* Seccion contacto Mobile */
+  .subtitulo__pages {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=style.css.map */
