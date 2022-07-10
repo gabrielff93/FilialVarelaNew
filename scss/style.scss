@@ -51,6 +51,29 @@
          
 }
 
+            /* media querys tablet */
+        @media screen and (max-width: 1366px){
+            .section__grid {
+                background-image: url(../img/bombonera1.jpg);
+                background-size: cover;
+                background-repeat:no-repeat;
+                background-position: center center;
+                display: grid;
+                grid-template-columns: 100px 100px;
+                grid-column-gap: 800px;
+                padding: 50px;          
+
+        }
+  
+    }
+
+        @media screen and (min-width: 576px) {
+       
+
+        }
+    
+
+
 .comollegar__container {
     display: flex;
     flex-direction: column;
@@ -99,14 +122,24 @@
 }
 
 .boton__container {
-    @extend .comollegar__container;
-    /* background: lightsteelblue; */
-    
+    /* @extend .comollegar__container; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: normal;
+
     
                  .boton__text {
-                    @extend .comollegar__text;
-                    font-size: 20px;
-                 }   
+             background: rgb(12,20,230);
+            background: linear-gradient(90deg, rgba(12,20,230,1) 22%, rgba(218,227,8,1) 55%, rgba(0,31,255,0.9192051820728291) 84%);
+            font-size: 23px;
+            font-family: 'Patrick Hand', cursive;
+            color: aliceblue;
+            text-align: center;
+        }   
+                       
                 
                     .form__boton {
                         display: flex;
@@ -281,7 +314,7 @@
              
             }
 
-         
+        
             
 
                     /*seccion Como llegar Mobile */
@@ -292,14 +325,13 @@
                         flex-wrap: wrap;
                         align-content: center;
                         justify-content: center;
-                        align-items: normal;
+                        align-items: normal; 
                     
                         .maps__comollegar {
-                            display: flex;
+                           /*  display: flex;
                             flex-direction: column;
-                            justify-content: center;
+                            justify-content: center; */
                         }
-                    
                         h3{
                             text-align: center;
                             background-color: $colorprinc;
@@ -344,11 +376,14 @@
                         }
                     }
 
-                /* Seccion contacto Mobile */
-        .subtitulo__pages {
+                  /* Seccion contacto Mobile */ 
+          .subtitulo__pages {
             font-size: 12px;
-        }
+    
+        } 
+    }
+        
 
                 
-                }
+                
 

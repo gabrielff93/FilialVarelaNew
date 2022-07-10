@@ -80,7 +80,23 @@
   color: black;
 }
 
-.comollegar__container, .boton__container {
+/* media querys tablet */
+@media screen and (max-width: 1366px) {
+  .section__grid {
+    background-image: url(../img/bombonera1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 100px 100px;
+        grid-template-columns: 100px 100px;
+    grid-column-gap: 800px;
+    padding: 50px;
+  }
+}
+
+.comollegar__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -100,18 +116,18 @@
           align-items: normal;
 }
 
-.comollegar__container h3, .boton__container h3 {
+.comollegar__container h3 {
   text-align: center;
   background-color: blue;
   color: gold;
   font-size: 23px;
 }
 
-.comollegar__container .text__container, .boton__container .text__container {
+.comollegar__container .text__container {
   background-color: cornflowerblue;
 }
 
-.comollegar__container .comollegar__text, .boton__container .comollegar__text, .boton__container .boton__text {
+.comollegar__container .comollegar__text {
   background: #0c14e6;
   background: -webkit-gradient(linear, left top, right top, color-stop(22%, #0c14e6), color-stop(55%, #dae308), color-stop(84%, rgba(0, 31, 255, 0.919205)));
   background: linear-gradient(90deg, #0c14e6 22%, #dae308 55%, rgba(0, 31, 255, 0.919205) 84%);
@@ -121,14 +137,14 @@
   text-align: center;
 }
 
-.comollegar__container .comollegar__text1, .boton__container .comollegar__text1 {
+.comollegar__container .comollegar__text1 {
   text-align: center;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: darkblue;
 }
 
-.comollegar__container .comollegar__text2, .boton__container .comollegar__text2 {
+.comollegar__container .comollegar__text2 {
   display: -ms-grid;
   display: grid;
   justify-items: center;
@@ -136,18 +152,41 @@
   color: aliceblue;
 }
 
-.comollegar__container .comollegar__text3, .boton__container .comollegar__text3 {
+.comollegar__container .comollegar__text3 {
   text-align: center;
   font-size: 23px;
   color: gold;
 }
 
 .boton__container {
-  /* background: lightsteelblue; */
+  /* @extend .comollegar__container; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: normal;
+      -ms-flex-align: normal;
+          align-items: normal;
 }
 
 .boton__container .boton__text {
-  font-size: 20px;
+  background: #0c14e6;
+  background: -webkit-gradient(linear, left top, right top, color-stop(22%, #0c14e6), color-stop(55%, #dae308), color-stop(84%, rgba(0, 31, 255, 0.919205)));
+  background: linear-gradient(90deg, #0c14e6 22%, #dae308 55%, rgba(0, 31, 255, 0.919205) 84%);
+  font-size: 23px;
+  font-family: 'Patrick Hand', cursive;
+  color: aliceblue;
+  text-align: center;
 }
 
 .boton__container .form__boton {
@@ -313,7 +352,7 @@ input:focus {
     color: black;
   }
   /*seccion Como llegar Mobile */
-  .comollegar__container, .boton__container {
+  .comollegar__container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -332,54 +371,47 @@ input:focus {
         -ms-flex-align: normal;
             align-items: normal;
   }
-  .comollegar__container .maps__comollegar, .boton__container .maps__comollegar {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .comollegar__container .maps__comollegar {
+    /*  display: flex;
+                            flex-direction: column;
+                            justify-content: center; */
   }
-  .comollegar__container h3, .boton__container h3 {
+  .comollegar__container h3 {
     text-align: center;
     background-color: blue;
     color: gold;
     font-size: 15px;
   }
-  .comollegar__container .text__container, .boton__container .text__container {
+  .comollegar__container .text__container {
     background-color: cornflowerblue;
     width: 350px;
     height: 150px;
     margin: 10px;
   }
-  .comollegar__container .comollegar__text, .boton__container .comollegar__text, .boton__container .boton__text {
+  .comollegar__container .comollegar__text {
     font-size: 10px;
     color: aliceblue;
     text-align: center;
   }
-  .comollegar__container .comollegar__text1, .boton__container .comollegar__text1 {
+  .comollegar__container .comollegar__text1 {
     text-align: center;
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color: darkblue;
   }
-  .comollegar__container .comollegar__text2, .boton__container .comollegar__text2 {
+  .comollegar__container .comollegar__text2 {
     display: -ms-grid;
     display: grid;
     justify-items: center;
     font-size: 10px;
     color: aliceblue;
   }
-  .comollegar__container .comollegar__text3, .boton__container .comollegar__text3 {
+  .comollegar__container .comollegar__text3 {
     text-align: center;
     font-size: 15px;
     color: gold;
   }
-  .comollegar__container img, .boton__container img {
+  .comollegar__container img {
     width: 350px;
     height: 150px;
   }
