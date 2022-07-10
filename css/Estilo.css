@@ -148,18 +148,7 @@ input:focus {
 } */
 
 /* media querys tablet */
-@media screen and (max-width: 1366px)
-  
 
-
-
-
-
-
-@media screen and (min-width: 576px) {
-    
-
-}
 
 
 /* media querys mobile */
@@ -249,7 +238,7 @@ input {
                 width: 350px;
                 height: 200px;
             }
-        }       
+               
 
 /* media querys desktop */
 @media screen and (min-width: 992px) {

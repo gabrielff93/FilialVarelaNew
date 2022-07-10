@@ -67,10 +67,7 @@
   
     }
 
-        @media screen and (min-width: 576px) {
-       
-
-        }
+    
     
 
 
@@ -99,6 +96,10 @@
             font-family: 'Patrick Hand', cursive;
             color: aliceblue;
             text-align: center;
+        }
+        .maps__comollegar {
+            width: 600px;
+            
         }
     
         .comollegar__text1 {
@@ -328,9 +329,9 @@
                         align-items: normal; 
                     
                         .maps__comollegar {
-                           /*  display: flex;
+                            display: flex;
                             flex-direction: column;
-                            justify-content: center; */
+                            justify-content: center;
                         }
                         h3{
                             text-align: center;
