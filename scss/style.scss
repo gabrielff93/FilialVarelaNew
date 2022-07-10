@@ -319,7 +319,9 @@
             
 
                     /*seccion Como llegar Mobile */
+                    @media screen and (max-width: 571px){
 
+                    
                     .comollegar__container {
                         display: flex;
                         flex-direction: column;
@@ -327,11 +329,14 @@
                         align-content: center;
                         justify-content: center;
                         align-items: normal; 
+                        
                     
                         .maps__comollegar {
                             display: flex;
                             flex-direction: column;
                             justify-content: center;
+                            
+                            
                         }
                         h3{
                             text-align: center;
@@ -341,9 +346,9 @@
                         }
                             .text__container {
                                 background-color: cornflowerblue;
-                                width: 350px;
+                                /* width: 230px;
                                 height: 150px;
-                                margin: 10px;
+                                margin: 10px; */
                         }
                             .comollegar__text {
                                 font-size: 10px;
@@ -382,6 +387,8 @@
             font-size: 12px;
     
         } 
+
+    }
     }
         
 

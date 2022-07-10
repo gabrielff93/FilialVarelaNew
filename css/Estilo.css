@@ -202,7 +202,7 @@ input {
     text-align: center;
     }
 
-}
+
 
 
             /* Como llegar Mobile */
@@ -238,7 +238,7 @@ input {
                 width: 350px;
                 height: 200px;
             }
-               
+        }         
 
 /* media querys desktop */
 @media screen and (min-width: 992px) {
