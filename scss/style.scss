@@ -123,7 +123,6 @@
 }
 
 .boton__container {
-    /* @extend .comollegar__container; */
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -324,11 +323,12 @@
                     
                     .comollegar__container {
                         display: flex;
-                        flex-direction: column;
+                        flex-direction: row;
                         flex-wrap: wrap;
                         align-content: center;
                         justify-content: center;
                         align-items: normal; 
+                        
                         
                     
                         .maps__comollegar {
@@ -345,10 +345,11 @@
                             font-size: 15px;
                         }
                             .text__container {
+                                text-align: center;
                                 background-color: cornflowerblue;
-                                /* width: 230px;
+                                width: 230px;
                                 height: 150px;
-                                margin: 10px; */
+                                margin: 10px;
                         }
                             .comollegar__text {
                                 font-size: 10px;
@@ -372,12 +373,10 @@
                                 text-align: center;
                                 font-size: 15px;
                                 color: $colorsec;
-                            
-                                    
+                                                           
                             }
-                        img {
-                           
-                            width: 350px;
+                        img {                       
+                            width: 250px;
                             height: 150px;
                         }
                     }
